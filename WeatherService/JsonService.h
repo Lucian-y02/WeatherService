@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Service.h"
+#include "Weather.h"
 
 class JsonService : public Service
 {

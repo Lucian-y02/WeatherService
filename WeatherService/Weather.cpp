@@ -16,11 +16,3 @@ Weather::Weather(std::string city, double lon, double lat, double temperature, s
 	this->windSpeed = windSpeed;
 	this->clouds = clouds;
 }
-
-ostream& operator<<(ostream& out, Weather data)
-{
-	out << "City: " << data.city << "\nLon: " << data.lon << "\nLat: " << data.lat
-		<< "\nTemperature: " << data.temperature << "\nWeather: " << data.weather
-		<< "\nWindSpeed: " << data.windSpeed << "Clouds: " << data.clouds;
-	return out;
-}
