@@ -27,16 +27,6 @@ Weather JsonService::getWeather(std::string s)
 	string weather = j["weather"].get<vector<json>>()[0]["main"].get<string>();
 	double windSpeed = j["wind"]["speed"].get<double>();
 	int clouds = j["clouds"]["all"].get<int>();
-	
-	/*
-	string city = j["name"].get<string>();
-	double lon = j["coord"].get<json>()["lon"].get<double>();
-	double lat = j["coord"].get<json>()["lat"].get<double>();
-	double temperature = j["main"].get<json>()["temp"].get<double>();
-	string weather = j["weather"].get<json>()["main"].get<string>();
-	double windSpeed = j["wind"].get<json>()["speed"].get<double>();
-	int clouds = j["clouds"].get<json>()["all"].get<int>();
-	*/
 
 	return Weather(city, lon, lat, temperature, weather, windSpeed, clouds);
 }
