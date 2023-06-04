@@ -24,9 +24,12 @@
     <ClCompile Include="Service.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="JsonService.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+=======
+>>>>>>> feature-xml
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Weather.h">
@@ -35,8 +38,11 @@
     <ClInclude Include="Service.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="JsonService.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+=======
+>>>>>>> feature-xml
   </ItemGroup>
 </Project>
